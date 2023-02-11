@@ -1,0 +1,23 @@
+.contact__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.contact__svg {
+    margin-top: 2rem;
+}
+
+.btn {
+    transition:  0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: var(--color-bg-variant);
+    color: #fff;
+}
+
+.form-control{
+    background: var(--color-light);
+}
