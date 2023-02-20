@@ -5,26 +5,18 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import ProjectList from './components/ProjectList';
-// import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
      <Header />
      <Navbar />
      <About />
      <Experience />
      <ProjectList />
      <Contact />
-     <Footer />
-     {/* <Routes>
-      <Route path='#' element = {<Header />} />
-      <Route path='#about' element = {<About />} /> 
-      <Route path='#experience' element = {<Experience />} />
-      <Route path='#projectList' element = {<ProjectList />} />
-      <Route path='#contact' element = {<Contact/>} />
-     </Routes>      */}
+     <Footer />        
     </div>
   );
 }
